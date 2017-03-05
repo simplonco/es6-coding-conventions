@@ -29,6 +29,9 @@ ES2015, ES2017, eslint et coding conventions
 
 * Bon article en français sur es6 / babal / webpack / react qui sera notre stack front pour les prochain mois :
 
-  => http://putaindecode.io/fr/articles/frontend/2016-2-ans-avec-react-babel-webpack-et-cie/
-  => (les H.O.C en français)[http://putaindecode.io/fr/articles/js/react/higher-order-component/]
+  * http://putaindecode.io/fr/articles/frontend/2016-2-ans-avec-react-babel-webpack-et-cie/
+  * les H.O.C en français : http://putaindecode.io/fr/articles/js/react/higher-order-component/)
+  * Redux : http://putaindecode.io/fr/articles/js/redux/
+  * Flow : http://putaindecode.io/fr/articles/js/flow/
+  * Create-react-app (vous pouvez presque tout faire avec) : https://github.com/facebookincubator/create-react-app/blob/master/README.md
 

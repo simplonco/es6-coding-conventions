@@ -12,6 +12,9 @@ ES2015, ES2017, eslint et coding conventions
 * webpack (avec babel-loader)
 * create-react-app utilise webpack avec babel
 
+## ES6 Katas :
+
+* http://es6katas.org/
 
 ## links :
 

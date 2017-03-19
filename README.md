@@ -62,13 +62,34 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
   
  ## Exercice :
  
- ### Les scopes et les blocks
+### Les variables en es6
  
- #### Un scope en javascript est defini par function() { ... }.
+* on utilise const et let à la place de var
+* on utilise les Big Arrow function 
+* on utilise des class pour declarer des objets
+* on utilise des raccourcis
+* on utilise des methodes pour les objets (nouvelle façon de  déclarer les methodes d'un objet)
+* on utilise des noms de propriété calculé
+* on utilise des promises
+* on utilise des destructured
+* on utilise des parametres par defaut
+* on utilise des spread operators
+* on utilise des generators
+
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Initialisateur_objet
+
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/D%C3%A9finition_de_m%C3%A9thode
+
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise
+
+
+### Les scopes et les blocks
+ 
+#### Un scope en javascript est defini par function() { ... }.
  
  Toutes les variables utilisée à l'intérieur de la fonction utlisent ne sont accessible qu'à l'intérieur de la fonction
  
- #### Un block en javascript est défini par { ... }. Par exemple if() { ... } ou for() { ... }
+#### Un block en javascript est défini par { ... }. Par exemple if() { ... } ou for() { ... }
  
  En es5, les block n'ont pas de scope. Alors qu'en es6, les blocks ont un scope. Par exemple :
  

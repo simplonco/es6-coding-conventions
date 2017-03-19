@@ -21,6 +21,8 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
 * http://es6katas.org/
 * corrections : (jusqu'à #45) : https://github.com/nullv01d/es6katas
 
+* http://marijnhaverbeke.nl/talks/es6_falsyvalues2015
+
 * http://mycodekatas.github.io/javascript.html
 
 ## links :
@@ -83,18 +85,84 @@ https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/D%C3%A9
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise
 
 
-### Les scopes et les blocks
+### Les scopes et les scoped-blocks
  
 #### Un scope en javascript est defini par function() { ... }.
  
  Toutes les variables utilisée à l'intérieur de la fonction utlisent ne sont accessible qu'à l'intérieur de la fonction
  
-#### Un block en javascript est défini par { ... }. Par exemple if() { ... } ou for() { ... }
+#### Un block en javascript est défini par { ... }. Par exemple :
+* if() { ... } 
+* for() { ... } 
+* ()=>{ ... } 
+* function(){ ... }
  
  En es5, les block n'ont pas de scope. Alors qu'en es6, les blocks ont un scope. Par exemple :
  
+##### exemple 1
+
+  ``` es5
+ 
+ if(true) {
+  var truc = 'bar'
+ }
+ 
+ console.log(truc):
+ ``` 
+ 
+ ``` es6
+
+ if(true) {
+  let truc = 'bar'
+ }
+ 
+  console.log(truc):
+ ``` 
+ 
+##### exemple 2
+
+  ``` es5
+ 
+ if(true) {
+  var truc = 'bar'
+ }
+ 
+ console.log(truc):
+ ``` 
+ 
+ ``` es6
+
+ if(true) {
+  const truc = 'bar'
+ }
+ 
+  console.log(truc):
+ ``` 
+ 
+##### exemple 3
+
   ``` es5
  var truc = 'foo'
+ 
+ if(true) {
+  var truc = 'bar'
+ }
+ ``` 
+ 
+ ``` es6
+ let truc = 'foo'
+ 
+ if(true) {
+  let truc = 'bar'
+ }
+ ``` 
+ 
+ ### Les big arrow functions
+ 
+   ``` es5
+ var truc = function() {
+  
+ }
  
  if(true) {
   var truc = 'bar'

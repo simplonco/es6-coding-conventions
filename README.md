@@ -1,20 +1,27 @@
 # es6-coding-conventions
 ES2015, ES2017, eslint et coding conventions
 
-
 ## ES6, c'est quoi ?
+
+C'est une nouvelle version de javascript qui va bientôt être utilisée sur tous les navigateurs
 
 ## ES6, pourquoi ?
 
+* Ecrire moins de code
+* Une version de javascript plus moderne
+
 ## Transpiler
 
-* babel
-* webpack (avec babel-loader)
+* babel : https://babeljs.io/
+* webpack avec babel-loader : https://github.com/babel/babel-loader
 * create-react-app utilise webpack avec babel
 
 ## ES6 Katas :
 
 * http://es6katas.org/
+* corrections : (jusqu'à #45) : https://github.com/nullv01d/es6katas
+
+* http://mycodekatas.github.io/javascript.html
 
 ## links :
 
@@ -46,8 +53,46 @@ ES2015, ES2017, eslint et coding conventions
   * Create-react-app (vous pouvez presque tout faire avec) : https://github.com/facebookincubator/create-react-app/blob/master/README.md
   * CI avec Travis : http://putaindecode.io/fr/articles/ci/travis-ci/
   * css-modules : http://putaindecode.io/fr/articles/css/modules/
+  * Proxy ES6 : http://putaindecode.io/fr/articles/js/es2015/proxy/ (avec redux bien utilisé, on n'en a pas besoin)
   
+ * en anglais :
+ 
+  * ES6 : https://egghead.io/search?q=learn%20es6 (en)
+  * ES6 dans nodejs : https://codequs.com/p/Byvv408t/using-es6-import-export-in-node-js-babel-js/
   
-  
-  * Proxy ES6 : http://putaindecode.io/fr/articles/js/es2015/proxy/ (avec redux bine utilisé, on n'en a pas besoin)
+ ## Exercice :
+ 
+ ### Les scopes et les blocks
+ 
+ #### Un scope en javascript est defini par function() { ... }.
+ 
+ Toutes les variables utilisée à l'intérieur de la fonction utlisent ne sont accessible qu'à l'intérieur de la fonction
+ 
+ #### Un block en javascript est défini par { ... }. Par exemple if() { ... } ou for() { ... }
+ 
+ En es5, les block n'ont pas de scope. Alors qu'en es6, les blocks ont un scope. Par exemple :
+ 
+  ``` es5
+ var truc = 'foo'
+ 
+ if(true) {
+  var truc = 'bar'
+ }
+ ``` 
+ 
+ ``` es6
+ let truc = 'foo'
+ 
+ if(true) {
+  let truc = 'bar'
+ }
+ ``` 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 

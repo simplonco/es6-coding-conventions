@@ -70,7 +70,7 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
   
 ## Exercice :
  
-### Les variables en es6
+### EN GROS EN ES6 :
  
 * on utilise const et let à la place de var
 * on utilise les Big Arrow function 
@@ -163,24 +163,70 @@ https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Pr
  }
  ``` 
  
- ### Les big arrow functions
+ ### Les classes
  
-   ``` es5
- var truc = function() {
-  
- }
- 
- if(true) {
-  var truc = 'bar'
- }
- ``` 
- 
- ``` es6
- let truc = 'foo'
- 
- if(true) {
-  let truc = 'bar'
- }
+ ```
+// Your code here
+
+class PointList {
+  constructor() {
+    this.list = []
+  }
+
+  add(...p) {
+    return this.list = [
+
+      ...this.list,
+      ...p
+    ]
+  }
+}
+
+class Point {
+  constructor(x = 0, y = 0) {
+    this.x = x
+    this.y = y
+  }
+
+  plus(p) {
+    return new Point(this.x + p.x, this.y + p.y)
+  }
+}
+
+console.log(new Point(1, 2).plus(new Point()))
+
+const points = new PointList()
+points.add(new Point(1, 1), new Point(1, 3), new Point(1, 4))
+console.log(points.list)
+// → Point{x: 3, y: 3}
+``` 
+
+### Un autre exemple : 
+
+```
+class Speaker {
+  constructor(name, verb) {
+    this.name = name
+    this.verb = verb || 'says'
+  }
+  speak(text) {
+    console.log(this.name + ' ' + this.verb + ' "' + text + '"')
+  }
+
+}
+
+class Shouter extends Speaker {
+  constructor(name) {
+    super(name, 'shouts')
+  }
+
+  speak(text) {
+    super.speak(text.toUpperCase())
+  }
+
+}
+
+new Shouter('Dr. Loudmouth').speak('hello there')
  ``` 
  
  

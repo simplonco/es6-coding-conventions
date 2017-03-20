@@ -16,12 +16,14 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
 * webpack avec babel-loader : https://github.com/babel/babel-loader
 * create-react-app utilise webpack avec babel
 
-## ES6 Katas :
+## ES6 Katas et exercices :
 
 * http://es6katas.org/
 * corrections : (jusqu'à #45) : https://github.com/nullv01d/es6katas
 
 * http://marijnhaverbeke.nl/talks/es6_falsyvalues2015
+
+* https://babeljs.io/repl
 
 * http://mycodekatas.github.io/javascript.html
 
@@ -47,6 +49,7 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
 
 * Bon article en français sur des sujets connexes :
   
+  * https://tech.mozfr.org/tag/ES6%20en%20d%C3%A9tails
   * LES PROMISES : http://putaindecode.io/fr/articles/js/es2015/promises/ [FR]
   * notre stack front pour les prochain mois : http://putaindecode.io/fr/articles/frontend/2016-2-ans-avec-react-babel-webpack-et-cie/
   * les H.O.C en français : http://putaindecode.io/fr/articles/js/react/higher-order-component/)
@@ -59,7 +62,9 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
   
  * en anglais :
  
-  * ES6 : https://egghead.io/search?q=learn%20es6 (en)
+  * https://babeljs.io/learn-es2015/
+  * https://egghead.io/search?q=learn%20es6
+  * https://github.com/lukehoban/es6features#readme
   * ES6 dans nodejs : https://codequs.com/p/Byvv408t/using-es6-import-export-in-node-js-babel-js/
   
  ## Exercice :

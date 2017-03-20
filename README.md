@@ -29,26 +29,19 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
 
 ## links :
 
-* http://putaindecode.io/fr/articles/js/es2015/const-let-var/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/template-strings/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/object-literals/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/classes/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/arrow-functions/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/defaults/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/rest-spread/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/array-methods-addition/ [FR]
-* http://putaindecode.io/fr/articles/js/es2015/destructuring/ [FR]
-* http://www.lilleweb.fr/js/2015/03/23/a-la-decouverte-de-es2015/ [FR]
-* http://www.lilleweb.fr/js/2015/05/28/a-la-decouverte-es2015-partie-2/ [FR]
-* http://www.lilleweb.fr/js/2015/06/20/a-la-decouverte-es2015-partie-3/ [FR]
-* https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come
-* http://es6-features.org/
-* https://babeljs.io/learn-es2015/
-* https://kangax.github.io/compat-table/es6/
-* http://es6katas.org/
+* EN FRANÇAIS :
 
-* Bon article en français sur des sujets connexes :
-  
+  * http://putaindecode.io/fr/articles/js/es2015/const-let-var/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/template-strings/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/object-literals/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/classes/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/arrow-functions/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/defaults/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/rest-spread/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/array-methods-addition/ [FR]
+  * http://putaindecode.io/fr/articles/js/es2015/destructuring/ [FR]
+  * http://www.lilleweb.fr/js/2015/03/23/a-la-decouverte-de-es2015/ [FR]
+  * http://www.lilleweb.fr/js/2015/05/28/a-la-decouverte-es2015-partie-2/ [FR]
   * https://tech.mozfr.org/tag/ES6%20en%20d%C3%A9tails
   * LES PROMISES : http://putaindecode.io/fr/articles/js/es2015/promises/ [FR]
   * notre stack front pour les prochain mois : http://putaindecode.io/fr/articles/frontend/2016-2-ans-avec-react-babel-webpack-et-cie/
@@ -60,14 +53,22 @@ C'est une nouvelle version de javascript qui va bientôt être utilisée sur tou
   * css-modules : http://putaindecode.io/fr/articles/css/modules/
   * Proxy ES6 : http://putaindecode.io/fr/articles/js/es2015/proxy/ (avec redux bien utilisé, on n'en a pas besoin)
   
- * en anglais :
+ * EN ANGLAIS :
  
+  * http://www.lilleweb.fr/js/2015/06/20/a-la-decouverte-es2015-partie-3/ [FR]
+  * https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come
+  * http://es6-features.org/
+  * https://babeljs.io/learn-es2015/
+  * https://kangax.github.io/compat-table/es6/
+  * http://es6katas.org/
   * https://babeljs.io/learn-es2015/
   * https://egghead.io/search?q=learn%20es6
   * https://github.com/lukehoban/es6features#readme
+  * https://github.com/ericdouglas/ES6-Learning
   * ES6 dans nodejs : https://codequs.com/p/Byvv408t/using-es6-import-export-in-node-js-babel-js/
   
- ## Exercice :
+  
+## Exercice :
  
 ### Les variables en es6
  
